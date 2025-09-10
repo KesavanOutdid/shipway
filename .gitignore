@@ -9,12 +9,13 @@
 !.yarn/versions
 
 # Logs
-/Log
-/Log/*.log
+/src/Log/*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-Shipway.log
+/src/Log/Shipway.log
+src/Log/Shipway.log
+src/Log/*.log
 
 # testing
 /coverage

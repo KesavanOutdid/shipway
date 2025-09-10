@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Expose port
-EXPOSE 8080
+EXPOSE 8013
 
 # Start app in development mode (or change to `npm run build && npm start` for production)
 CMD ["npm", "run", "dev"]
