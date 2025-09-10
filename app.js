@@ -24,7 +24,7 @@ app.use("/api", shipwayRoutes);
 app.use(errorHandler);
 
 // --- Server Setup ---
-const HTTP_PORT = process.env.HTTP_PORT || 9090;
+const HTTP_PORT = process.env.HTTP_PORT;
 const httpServer = http.createServer(app);
 
 function getLocalIp() {
