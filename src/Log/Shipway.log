@@ -4,3 +4,5 @@
 09/09/2025 15:31:27 [INFO]: pincodeserviceable: Request received {"query":{"pincode":"560076"}}
 09/09/2025 15:31:27 [INFO]: pincodeserviceable: Shipway API response received
 09/09/2025 15:31:27 [INFO]: pincodeserviceable: Returning filtered response {"count":31}
+10/09/2025 09:53:37 [INFO]: getwarehouses: Request received
+10/09/2025 09:53:38 [INFO]: getwarehouses: Shipway API success {"count":0}
